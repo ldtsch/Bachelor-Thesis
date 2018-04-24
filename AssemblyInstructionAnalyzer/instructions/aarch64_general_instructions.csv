@@ -1,0 +1,174 @@
+^((?![vV][0-9]*)(?![zZ][0-9]+)(?![pP][0-9]+).)*$
+ADC, Add with carry page 5-9
+ADCS, Add with carry; setting the condition flags page 5-10
+ADD, (extended register) Add (extended register) page 5-11
+ADD, (immediate) Add (immediate) page 5-13
+ADD, (shifted register) Add (shifted register) page 5-14
+ADDS, (extended register) Add (extended register); setting the condition flags page 5-15
+ADDS, (immediate) Add (immediate); setting the condition flags page 5-17
+ADDS, (shifted register) Add (shifted register); setting the condition flags page 5-18
+ADR, Address of label at a PC-relative offset page 5-19
+ADRL, pseudo-instruction Load a PC-relative address into a register page 5-20
+ADRP, Address of 4KB page at a PC-relative offset page 5-21
+AND, (immediate) Bitwise AND (immediate) page 5-22
+AND, (shifted register) Bitwise AND (shifted register) page 5-23
+ANDS, (immediate) Bitwise AND (immediate); setting the condition flags page 5-24
+ANDS, (shifted register) Bitwise AND (shifted register); setting the condition flags page 5-25
+ASR, (register) Arithmetic shift right (register) page 5-26
+ASR, (immediate) Arithmetic shift right (immediate) page 5-27
+ASRV, Arithmetic shift right variable page 5-28
+AT, Address translate page 5-29
+B.cond, Branch conditionally to a label at a PC-relative offset; with a hint that this is not a subroutine call or return
+B, Branch unconditionally to a label at a PC-relative offset; with a hint that this is not a subroutine call or return
+BFI, Bitfield insert; leaving other bits unchanged page 5-32
+BFM, Bitfield move; leaving other bits unchanged page 5-33
+BFXIL, Bitfield extract and insert at low end; leaving other bits
+BIC, (shifted register) Bitwise bit clear (shifted register) page 5-35
+BICS, (shifted register) Bitwise bit clear (shifted register); setting the condition
+BL, Branch with link; calls a subroutine at a PC-relative offset;
+BLR, Branch with link to register; calls a subroutine at an address in a register; setting register X30 to PC + 4
+BR, Branch to register; branches unconditionally to an address in a register; with a hint that this is not a subroutine return
+BRK, Self-hosted debug breakpoint page 5-40
+CBNZ, Compare and branch if nonzero to a label at a PC-relative offset; without affecting the condition flags; and with a hint that this is not a subroutine call or return
+CBZ, Compare and branch if zero to a label at a PC-relative offset; without affecting the condition flags; and with a hint that this is not a subroutine call or return
+CCMN, (immediate) Conditional compare negative (immediate); setting condition flags to result of comparison or an immediate value 
+CCMN, (register) Conditional compare negative (register); setting condition flags to result of comparison or an immediate value
+CCMP, (immediate) Conditional compare (immediate); setting condition flags to result of comparison or an immediate value
+CCMP, (register) Conditional compare (register); setting condition flags to result of comparison or an immediate value
+CINC, Conditional increment page 5-47
+CINV, Conditional invert page 5-48
+CLREX, Clear exclusive monitor page 5-49
+CLS, Count leading sign bits page 5-50
+CLZ, Count leading zero bits page 5-51
+CMN, (extended register) Compare negative (extended register); setting the condition flags and discarding the result page 5-52
+CMN, (immediate) Compare negative (immediate); setting the condition flags and discarding the result
+CMN, (shifted register) Compare negative (shifted register); setting the condition flags and discarding the result
+CMP, (extended register) Compare (extended register); setting the condition flags and discarding the result
+CMP, (immediate) Compare (immediate); setting the condition flags and discarding the result 
+CMP, (shifted register) Compare (shifted register); setting the condition flags and discarding the result 
+CNEG, Conditional negate page 5-60
+CRC32B, CRC-32 checksum from byte; halfword; word or doubleword
+CRC32H, CRC-32 checksum from byte; halfword; word or doubleword
+CRC32W, CRC-32 checksum from byte; halfword; word or doubleword
+CRC32X, CRC-32 checksum from byte; halfword; word or doubleword
+CRC32CB, CRC-32C checksum from byte; halfword; word; or doubleword
+CRC32CH, CRC-32C checksum from byte; halfword; word; or doubleword
+CRC32CW, CRC-32C checksum from byte; halfword; word; or doubleword
+CRC32CX, CRC-32C checksum from byte; halfword; word; or doubleword
+CSEL, Conditional select; returning the first or second input page 5-63
+CSET, Conditional set page 5-64
+CSETM, Conditional set mask page 5-65
+CSINC, Conditional select increment; returning the first input or incremented second input 
+CSINV, Conditional select inversion; returning the first input or inverted second input
+CSNEG, Conditional select negation; returning the first input or negated second input
+DC, Data cache operation page 5-69
+DCPS1, Debug switch to exception level 1 page 5-70
+DCPS2, Debug switch to exception level 2 page 5-71
+DCPS3, Debug switch to exception level 3 page 5-72
+DMB, Data memory barrier page 5-73
+DRPS, Debug restore processor state page 5-74
+DSB, Data synchronization barrier page 5-75
+EON, (shifted register) Bitwise exclusive OR NOT (shifted register) page 5-76
+EOR, (immediate) Bitwise exclusive OR (immediate) page 5-77
+EOR, (shifted register) Bitwise exclusive OR (shifted register) page 5-78
+ERET, Returns from an exception page 5-79
+EXTR, Extract register from pair of registers page 5-80
+HINT, Hint instruction page 5-81
+HLT, External debug breakpoint page 5-82
+HVC, Hypervisor call to allow OS code to call the Hypervisor page 5-83
+IC, Instruction cache operation page 5-84
+ISB, Instruction synchronization barrier page 5-85
+LSL, (register) Logical shift left (register) page 5-86
+LSL, (immediate) Logical shift left (immediate) page 5-87
+LSLV, Logical shift left variable page 5-88
+LSR, (register) Logical shift right (register) page 5-89
+LSR, (immediate) Logical shift right (immediate) page 5-90
+LSRV, Logical shift right variable page 5-91
+MADD, Multiply-add page 5-92
+MNEG, Multiply-negate page 5-93
+MOV, (to or from SP) Move between register and stack pointer page 5-94
+MOV, (inverted wide immediate) Move inverted 16-bit immediate to register page 5-95
+MOV, (wide immediate) Move 16-bit immediate to register page 5-96
+MOV, (bitmask immediate) Move bitmask immediate to register page 5-97
+MOV, (register) Move register to register page 5-98
+MOVK, Move 16-bit immediate into register; keeping other bits unchanged
+MOVL, pseudo-instruction Load a register page 5-100
+MOVN, Move inverse of shifted 16-bit immediate to register page 5-102
+MOVZ, Move shifted 16-bit immediate to register page 5-103
+MRS, Move from system register page 5-104
+MSR, (immediate) Move immediate to processor state field page 5-105
+MSR, (register) Move to system register page 5-106
+MSUB, Multiply-subtract page 5-107
+MUL, Multiply page 5-108
+MVN, Bitwise NOT (shifted register) page 5-109
+NEG, Negate page 5-110
+NEGS, Negate; setting the condition flags page 5-111
+NGC, Negate with carry page 5-112
+NGCS, Negate with carry; setting the condition flags page 5-113
+NOP, No operation page 5-114
+ORN, (shifted register) Bitwise inclusive OR NOT (shifted register) page 5-115
+ORR, (immediate) Bitwise inclusive OR (immediate) page 5-116
+ORR, (shifted register) Bitwise inclusive OR (shifted register) page 5-117
+RBIT, Reverse bit order page 5-118
+RET, Return from subroutine; branches unconditionally to an address in a register; with a hint that this is a subroutine return
+REV, Reverse bytes page 5-120
+REV16, Reverse bytes in 16-bit halfwords page 5-121
+REV32, Reverse bytes in 32-bit words page 5-122
+ROR, (immediate) Rotate right (immediate) page 5-123
+ROR, (register) Rotate right (register) page 5-124
+RORV, Rotate right variable page 5-125
+SBC, Subtract with carry page 5-126
+SBCS, Subtract with carry; setting the condition flags page 5-127
+SBFIZ, Signed bitfield insert in zero; with sign replication to left and zeros to right
+SBFM, Signed bitfield move; with sign replication to left and zeros to right
+SBFX, Signed bitfield extract page 5-131
+SDIV, Signed divide page 5-132
+SEV, Send event page 5-133
+SEVL, Send event locally page 5-134
+SMADDL, Signed multiply-add long page 5-135
+SMC, Supervisor call to allow OS or Hypervisor code to call the Secure Monitor
+SMNEGL, Signed multiply-negate long page 5-137
+SMSUBL, Signed multiply-subtract long page 5-138
+SMULH, Signed multiply high page 5-139
+SMULL, Signed multiply long page 5-140
+SUB, (extended register) Subtract (extended register) page 5-141
+SUB, (immediate) Subtract (immediate) page 5-143
+SUB, (shifted register) Subtract (shifted register) page 5-144
+SUBS, (extended register) Subtract (extended register); setting the condition flags page 5-145
+SUBS, (immediate) Subtract (immediate); setting the condition flags page 5-147
+SUBS, (shifted register) Subtract (shifted register); setting the condition flags page 5-148
+SVC, Supervisor call to allow application code to call the OS page 5-149
+SXTB, Signed extend byte page 5-150
+SXTH, Signed extend halfword page 5-151
+SXTW, Signed extend word page 5-152
+SYS, System instruction page 5-153
+SYSL, System instruction with result page 5-154
+TBNZ, Test bit and branch if nonzero to a label at a PC-relative offset; without affecting the condition flags; and with a hint that this is not a subroutine call or return
+TBZ, Test bit and branch if zero to a label at a PC-relative offset; without affecting the condition flags; and with a hint that this is not a subroutine call or return
+TLBI, TLB invalidate operation page 5-157
+TST, (immediate) Test bits (immediate); setting the condition flags and discarding the result
+TST, (shifted register) Test bits (shifted register); setting the condition flags and discarding the result
+UBFIZ, Unsigned bitfield insert in zero; with zeros to left and right page 5-160
+UBFM, Unsigned bitfield move; with zeros to left and right page 5-161
+UBFX, Unsigned bitfield extract page 5-163
+UDIV, Unsigned divide page 5-164
+UMADDL, Unsigned multiply-add long page 5-165
+UMNEGL, Unsigned multiply-negate long page 5-166
+UMSUBL, Unsigned multiply-subtract long page 5-167
+UMULH, Unsigned multiply high page 5-168
+UMULL, Unsigned multiply long page 5-169
+UXTB, Unsigned extend byte page 5-170
+UXTH, Unsigned extend halfword page 5-171
+WFE, Wait for event page 5-172
+WFI, Wait for interrupt page 5-173
+YIELD, Yield hint page 5-174
+DECB
+DECH
+DECW
+DECD
+DECP
+INCB
+INCH
+INCW
+INCD
+INCP

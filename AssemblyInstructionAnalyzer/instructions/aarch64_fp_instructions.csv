@@ -1,0 +1,49 @@
+^((?![vV][0-9]*)(?![zZ][0-9]+)(?![pP][0-9]+).)*$
+FABS, (scalar) Floating-point absolute value page 7-4
+FADD, (scalar) Floating-point add page 7-5
+FCCMP, Floating-point conditional quiet compare; setting condition flags to result of comparison or an immediate value
+FCCMPE, Floating-point conditional signaling compare; setting condition flags to result of comparison or an immediate value
+FCMP, Floating-point quiet compare page 7-8
+FCMPE, Floating-point signaling compare page 7-9
+FCSEL, Floating-point conditional select page 7-10
+FCVT, Floating-point convert precision page 7-11
+FCVTAS, (scalar) Floating-point convert to signed integer; rounding to nearest with ties to away
+FCVTAU, (scalar) Floating-point convert to unsigned integer; rounding to nearest with ties to away
+FCVTMS, (scalar) Floating-point convert to signed integer; rounding toward minus infinity
+FCVTMU, (scalar) Floating-point convert to unsigned integer; rounding toward minus infinity
+FCVTNS, (scalar) Floating-point convert to signed integer; rounding to nearest with ties to even
+FCVTNU, (scalar) Floating-point convert to unsigned integer; rounding to nearest with ties to even
+FCVTPS, (scalar) Floating-point convert to signed integer; rounding toward positive infinity
+FCVTPU, (scalar) Floating-point convert to unsigned integer; rounding toward positive infinity
+FCVTZS, (scalar; fixed-point) Floating-point convert to signed fixed-point; rounding toward zero
+FCVTZS, (scalar; integer) Floating-point convert to signed integer; rounding toward zero
+FCVTZU, (scalar; fixed-point) Floating-point convert to unsigned fixed-point; rounding toward zero
+FCVTZU, (scalar; integer) Floating-point convert to unsigned integer; rounding toward zero
+FDIV, (scalar) Floating-point divide page 7-24
+FMADD, Floating-point fused multiply-add page 7-25
+FMAX, (scalar) Floating-point maximum page 7-26
+FMAXNM, (scalar) Floating-point maximum number page 7-27
+FMIN, (scalar) Floating-point minimum page 7-28
+FMINNM, (scalar) Floating-point minimum number page 7-29
+FMOV, (register) Floating-point move register without conversion page 7-30
+FMOV, (general) Floating-point move to or from general-purpose register without conversion
+FMOV, (scalar; immediate) Floating-point move immediate page 7-32
+FMSUB, Floating-point fused multiply-subtract page 7-33
+FMUL, (scalar) Floating-point multiply page 7-34
+FNEG, (scalar) Floating-point negate page 7-35
+FNMADD, Floating-point negated fused multiply-add page 7-36
+FNMSUB, Floating-point negated fused multiply-subtract page 7-37
+FNMUL, Floating-point multiply-negate page 7-38
+FRINTA, (scalar) Floating-point round to integral; to nearest with ties to away
+FRINTI, (scalar) Floating-point round to integral; using current rounding mode
+FRINTM, (scalar) Floating-point round to integral; toward minus infinity page 7-41
+FRINTN, (scalar) Floating-point round to integral; to nearest with ties to even page 7-42
+FRINTP, (scalar) Floating-point round to integral; toward positive infinity page 7-43
+FRINTX, (scalar) Floating-point round to integral exact; using current rounding mode
+FRINTZ, (scalar) Floating-point round to integral; toward zero page 7-45
+FSQRT, (scalar) Floating-point square root page 7-46
+FSUB, (scalar) Floating-point subtract page 7-47
+SCVTF, (scalar; fixed-point) Signed fixed-point convert to floating-point page 7-48
+SCVTF, (scalar; integer) Signed integer convert to floating-point page 7-49
+UCVTF, (scalar; fixed-point) Unsigned fixed-point convert to floating-point page 7-50
+UCVTF, (scalar; integer) Unsigned integer convert to floating-point page 7-51

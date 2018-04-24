@@ -1,0 +1,82 @@
+^((?![vV][0-9]*)(?![zZ][0-9]+)(?![pP][0-9]+).)*$
+LDAR, Load-acquire register page 6-6
+LDARB, Load-acquire register byte page 6-7
+LDARH, Load-acquire register halfword page 6-8
+LDAXP, Load-acquire exclusive pair of registers page 6-9
+LDAXR, Load-acquire exclusive register page 6-10
+LDAXRB, Load-acquire exclusive register byte page 6-11
+LDAXRH, Load-acquire exclusive register halfword page 6-12
+LDNP, (SIMD and FP) Load pair of SIMD and FP registers; with non-temporal hint
+LDNP, Load pair of registers; with non-temporal hint page 6-14
+LDP, (SIMD and FP) Load pair of SIMD and FP registers page 6-15
+LDP, Load pair of registers page 6-17
+LDPSW, Load pair of registers signed word page 6-18
+LDR, (immediate; SIMD and FP) Load SIMD and FP register (immediate offset) page 6-19
+LDR, (immediate) Load register (immediate offset) page 6-21
+LDR, (literal; SIMD and FP) Load SIMD and FP register (PC-relative literal) page 6-22
+LDR, (literal) Load register (PC-relative literal) page 6-23
+LDR, pseudo-instruction Load a register page 6-24
+LDR, (register; SIMD and FP) Load SIMD and FP register (register offset) page 6-26
+LDR, (register) Load register (register offset) page 6-28
+LDRB, (immediate) Load register byte (immediate offset) page 6-29
+LDRB, (register) Load register byte (register offset) page 6-30
+LDRH, (immediate) Load register halfword (register offset) page 6-31
+LDRH, (register) Load register halfword (register offset) page 6-32
+LDRSB, (immediate) Load register signed byte (immediate offset) page 6-33
+LDRSB, (register) Load register signed byte (register offset) page 6-34
+LDRSH, (immediate) Load register signed halfword (immediate offset) page 6-35
+LDRSH, (register) Load register signed halfword (register offset) page 6-36
+LDRSW, (immediate) Load register signed word (immediate offset) page 6-37
+LDRSW, (literal) Load register signed word (PC-relative literal) page 6-38
+LDRSW, (register) Load register signed word (register offset) page 6-39
+LDTR, Load register (unprivileged) page 6-40
+LDTRB, Load register byte (unprivileged) page 6-41
+LDTRH, Load register halfword (unprivileged) page 6-42
+LDTRSB, Load register signed byte (unprivileged) page 6-43
+LDTRSH, Load register signed halfword (unprivileged) page 6-44
+LDTRSW, Load register signed word (unprivileged) page 6-45
+LDUR, (SIMD and FP) Load SIMD and FP register (unscaled offset) page 6-46
+LDUR, Load register (unscaled offset) page 6-47
+LDURB, Load register byte (unscaled offset) page 6-48
+LDURH, Load register halfword (unscaled offset) page 6-49
+LDURSB, Load register signed byte (unscaled offset) page 6-50
+LDURSH, Load register signed halfword (unscaled offset) page 6-51
+LDURSW, Load register signed word (unscaled offset) page 6-52
+LDXP, Load exclusive pair of registers page 6-53
+LDXR, Load exclusive register page 6-54
+LDXRB, Load exclusive register byte page 6-55
+LDXRH, Load exclusive register halfword page 6-56
+PRFM, (immediate) Prefetch memory (immediate offset) page 6-57
+PRFM, (literal) Prefetch memory (PC-relative offset) page 6-59
+PRFM, (register) Prefetch memory (register offset) page 6-60
+PRFUM, Prefetch memory (unscaled offset) page 6-62
+STLR, Store-release register page 6-64
+STLRB, Store-release register byte page 6-65
+STLRH, Store-release register halfword page 6-66
+STLXP, Store-release exclusive pair of registers; returning status page 6-67
+STLXR, Store-release exclusive register; returning status page 6-68
+STLXRB, Store-release exclusive register byte; returning status page 6-69
+STLXRH, Store-release exclusive register halfword; returning status page 6-70
+STNP, (SIMD and FP) Store pair of SIMD and FP registers; with non-temporal hint
+STNP, Store pair of registers; with non-temporal hint page 6-72
+STP, (SIMD and FP) Store pair of SIMD and FP registers page 6-73
+STP, Store pair of registers page 6-75
+STR, (immediate; SIMD and FP) Store SIMD and FP register (immediate offset) page 6-76
+STR, (immediate) Store register (immediate offset) page 6-78
+STR, (register; SIMD and FP) Store SIMD and FP register (register offset) page 6-79
+STR, (register) Store register (register offset) page 6-81
+STRB, (immediate) Store register byte (immediate offset) page 6-82
+STRB, (register) Store register byte (register offset) page 6-83
+STRH, (immediate) Store register halfword (immediate offset) page 6-84
+STRH, (register) Store register halfword (register offset) page 6-85
+STTR, Store register (unprivileged) page 6-86
+STTRB, Store register byte (unprivileged) page 6-87
+STTRH, Store register halfword (unprivileged) page 6-88
+STUR, (SIMD and FP) Store SIMD and FP register (unscaled offset) page 6-89
+STUR, Store register (unscaled offset) page 6-90
+STURB, Store register byte (unscaled offset) page 6-91
+STURH, Store register halfword (unscaled offset) page 6-92
+STXP, Store exclusive pair of registers; returning status page 6-93
+STXR, Store exclusive register; returning status page 6-94
+STXRB, Store exclusive register byte; returning status page 6-95
+STXRH, Store exclusive register halfword; returning status page 6-96

@@ -1,0 +1,325 @@
+^((?![zZ][0-9]+)(?![pP][0-9]+)).*([vV][0-9]+).*$
+ABS,(vector) Absolute value page 9-12
+ADD,(vector) Add page 9-13
+ADDHN,(vector) Add returning high narrow page 9-14
+ADDHN2,(vector) Add returning high narrow page 9-14
+ADDP,(vector) Add pairwise page 9-15
+ADDV,(vector) Add across vector page 9-16
+AND,(vector) Bitwise AND page 9-17
+BIC,(vector; immediate) Bitwise bit clear (immediate) page 9-18
+BIC,(vector; register) Bitwise bit clear (register) page 9-19
+BIF,(vector) Bitwise insert if false page 9-20
+BIT,(vector) Bitwise insert if true page 9-21
+BSL,(vector) Bitwise select page 9-22
+CLS,(vector) Count leading sign bits page 9-23
+CLZ,(vector) Count leading zero bits page 9-24
+CMEQ,(vector; register) Compare bitwise equal; setting destination vector element to all ones if the condition holds; else zero
+CMEQ,(vector; zero) Compare bitwise equal to zero; setting destination vector element to all ones if the condition holds; else zero
+CMGE,(vector; register) Compare signed greater than or equal page 9-27
+CMGE,(vector; zero) Compare signed greater than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+CMGT,(vector; register) Compare signed greater than; setting destination vector element to all ones if the condition holds; else zero
+CMGT,(vector; zero) Compare signed greater than zero; setting destination vector element to all ones if the condition holds; else zero
+CMHI,(vector; register) Compare unsigned higher; setting destination vector element to all ones if the condition holds; else zero
+CMHS,(vector; register) Compare unsigned higher or same; setting destination vector element to all ones if the condition holds; else zero
+CMLE,(vector; zero) Compare signed less than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+CMLT,(vector; zero) Compare signed less than zero; setting destination vector element to all ones if the condition holds; else zero
+CMTST,(vector) Compare bitwise test bits nonzero; setting destination vector element to all ones if the condition holds; else zero
+CNT,(vector) Population count per byte page 9-36
+DUP,(vector; element) Duplicate vector element to vector page 9-37
+DUP,(vector) Duplicate general-purpose register to vector page 9-38
+EOR,(vector) Bitwise exclusive OR page 9-39
+EXT,(vector) Extract vector from pair of vectors page 9-40
+FABD,(vector) Floating-point absolute difference page 9-41
+FABS,(vector) Floating-point absolute value page 9-42
+FACGE,(vector) Floating-point absolute compare greater than or equal page 9-43
+FACGT,(vector) Floating-point absolute compare greater than page 9-44
+FADD,(vector) Floating-point add page 9-45
+FADDP,(vector) Floating-point add pairwise page 9-46
+FCMEQ,(vector; register) Floating-point compare equal; setting destination vector element to all ones if the condition holds; else zero
+FCMEQ,(vector; zero) Floating-point compare equal to zero; setting destination vector element to all ones if the condition holds; else zero
+FCMGE,(vector; register) Floating-point compare greater than or equal; setting destination vector element to all ones if the condition holds; else zero
+FCMGE,(vector; zero) Floating-point compare greater than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+FCMGT,(vector; register) Floating-point compare greater than; setting destination vector element to all ones if the condition holds; else zero
+FCMGT,(vector; zero) Floating-point compare greater than zero; setting destination vector element to all ones if the condition holds; else zero
+FCMLE,(vector; zero) Floating-point compare less than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+FCMLT,(vector; zero) Floating-point compare less than zero; setting destination vector element to all ones if the condition holds; else zero
+FCVTAS,(vector) Floating-point convert to signed integer; rounding to nearest with ties to away
+FCVTAU,(vector) Floating-point convert to unsigned integer; rounding to nearest with ties to away
+FCVTL,(vector) Floating-point convert to higher precision long page 9-57
+FCVTL2,(vector) Floating-point convert to higher precision long page 9-57
+FCVTMS,(vector) Floating-point convert to signed integer; rounding toward minus infinity
+FCVTMU,(vector) Floating-point convert to unsigned integer; rounding toward minus infinity
+FCVTN,(vector) Floating-point convert to lower precision narrow page 9-60
+FCVTN2,(vector) Floating-point convert to lower precision narrow page 9-60
+FCVTNS,(vector) Floating-point convert to signed integer; rounding to nearest with ties to even
+FCVTNU,(vector) Floating-point convert to unsigned integer; rounding to nearest with ties to even
+FCVTPS,(vector) Floating-point convert to signed integer; rounding toward positive infinity
+FCVTPU,(vector) Floating-point convert to unsigned integer; rounding toward positive infinity
+FCVTXN,(vector) Floating-point convert to lower precision narrow; rounding to odd
+FCVTXN2,(vector) Floating-point convert to lower precision narrow; rounding to odd
+FCVTZS,(vector; fixed-point) Floating-point convert to signed fixed-point; rounding toward zero
+FCVTZS,(vector; integer) Floating-point convert to signed integer; rounding toward zero
+FCVTZU,(vector; fixed-point) Floating-point convert to unsigned fixed-point; rounding toward zero
+FCVTZU,(vector; integer) Floating-point convert to unsigned integer; rounding toward zero
+FDIV,(vector) Floating-point divide page 9-70
+FMAX,(vector) Floating-point maximum page 9-71
+FMAXNM,(vector) Floating-point maximum number page 9-72
+FMAXNMP,(vector) Floating-point maximum number pairwise page 9-73
+FMAXNMV,(vector) Floating-point maximum number across vector page 9-74
+FMAXP,(vector) Floating-point maximum pairwise page 9-75
+FMAXV,(vector) Floating-point maximum across vector page 9-76
+FMIN,(vector) Floating-point minimum page 9-77
+FMINNM,(vector) Floating-point minimum number page 9-78
+FMINNMP,(vector) Floating-point minimum number pairwise page 9-79
+FMINNMV,(vector) Floating-point minimum number across vector page 9-80
+FMINP,(vector) Floating-point minimum pairwise page 9-81
+FMINV,(vector) Floating-point minimum across vector page 9-82
+FMLA,(vector; by element) Floating-point fused multiply-add to accumulator (by element)
+FMLA,(vector) Floating-point fused multiply-add to accumulator page 9-84
+FMLS,(vector; by element) Floating-point fused multiply-subtract from accumulator (by element)
+FMLS,(vector) Floating-point fused multiply-subtract from accumulator page 9-86
+FMOV,(vector; immediate) Floating-point move immediate page 9-87
+FMUL,(vector; by element) Floating-point multiply (by element) page 9-88
+FMUL,(vector) Floating-point multiply page 9-89
+FMULX,(vector; by element) Floating-point multiply extended (by element) page 9-90
+FMULX,(vector) Floating-point multiply extended page 9-91
+FNEG,(vector) Floating-point negate page 9-92
+FRECPE,(vector) Floating-point reciprocal estimate page 9-93
+FRECPS,(vector) Floating-point reciprocal step page 9-94
+FRINTA,(vector) Floating-point round to integral; to nearest with ties to away
+FRINTI,(vector) Floating-point round to integral; using current rounding mode
+FRINTM,(vector) Floating-point round to integral; toward minus infinity page 9-97
+FRINTN,(vector) Floating-point round to integral; to nearest with ties to even page 9-98
+FRINTP,(vector) Floating-point round to integral; toward positive infinity page 9-99
+FRINTX,(vector) Floating-point round to integral exact; using current rounding mode
+FRINTZ,(vector) Floating-point round to integral; toward zero page 9-101
+FRSQRTE,(vector) Floating-point reciprocal square root estimate page 9-102
+FRSQRTS,(vector) Floating-point reciprocal square root step page 9-103
+FSQRT,(vector) Floating-point square root page 9-104
+FSUB,(vector) Floating-point subtract page 9-105
+INS,(vector; element) Insert vector element from another vector element page 9-106
+INS,(vector) Insert vector element from general-purpose register page 9-107
+LD1,(vector; multiple structures) Load multiple 1-element structures to one; two; three or four registers
+LD1,(vector; single structure) Load single 1-element structure to one lane of one register page 9-111
+LD1R,(vector) Load single 1-element structure and replicate to all lanes (of one register)
+LD2,(vector; multiple structures) Load multiple 2-element structures to two registers page 9-113
+LD2,(vector; single structure) Load single 2-element structure to one lane of two registers page 9-114
+LD2R,(vector) Load single 2-element structure and replicate to all lanes of two registers
+LD3,(vector; multiple structures) Load multiple 3-element structures to three registers page 9-117
+LD3,(vector; single structure) Load single 3-element structure to one lane of three registers)
+LD3R,(vector) Load single 3-element structure and replicate to all lanes of three registers
+LD4,(vector; multiple structures) Load multiple 4-element structures to four registers page 9-122
+LD4,(vector; single structure) Load single 4-element structure to one lane of four registers
+LD4R,(vector) Load single 4-element structure and replicate to all lanes of four registers
+MLA,(vector; by element) Multiply-add to accumulator (by element) page 9-127
+MLA,(vector) Multiply-add to accumulator page 9-128
+MLS,(vector; by element) Multiply-subtract from accumulator (by element) page 9-129
+MLS,(vector) Multiply-subtract from accumulator page 9-130
+MOV,(vector; element) Move vector element to another vector element page 9-131
+MOV,(vector; from general) Move general-purpose register to a vector element page 9-132
+MOV,(vector) Move vector page 9-133
+MOV,(vector; to general) Move vector element to general-purpose register page 9-134
+MOVI,(vector) Move immediate page 9-135
+MUL,(vector; by element) Multiply (by element) page 9-136
+MUL,(vector) Multiply page 9-137
+MVN,(vector) Bitwise NOT page 9-138
+MVNI,(vector) Move inverted immediate page 9-139
+NEG,(vector) Negate page 9-140
+NOT,(vector) Bitwise NOT page 9-141
+ORN,(vector) Bitwise inclusive OR NOT page 9-142
+ORR,(vector; immediate) Bitwise inclusive OR (immediate) page 9-143
+ORR,(vector; register) Bitwise inclusive OR (register) page 9-144
+PMUL,(vector) Polynomial multiply page 9-145
+PMULL,(vector) Polynomial multiply long page 9-146
+PMULL2,(vector) Polynomial multiply long page 9-146
+RADDHN,(vector) Rounding add returning high narrow page 9-147
+RADDHN2,(vector) Rounding add returning high narrow page 9-147
+RBIT,(vector) Reverse bit order page 9-148
+REV16,(vector) Reverse elements in 16-bit halfwords page 9-149
+REV32,(vector) Reverse elements in 32-bit words page 9-150
+REV64,(vector) Reverse elements in 64-bit doublewords page 9-151
+RSHRN,(vector) Rounding shift right narrow (immediate) page 9-152
+RSHRN2,(vector) Rounding shift right narrow (immediate) page 9-152
+RSUBHN,(vector) Rounding subtract returning high narrow page 9-153
+RSUBHN2,(vector) Rounding subtract returning high narrow page 9-153
+SABA,(vector) Signed absolute difference and accumulate page 9-154
+SABAL,(vector) Signed absolute difference and accumulate long page 9-155
+SABAL2,(vector) Signed absolute difference and accumulate long page 9-155
+SABD,(vector) Signed absolute difference page 9-156
+SABDL,(vector) Signed absolute difference long page 9-157
+SABDL2,(vector) Signed absolute difference long page 9-157
+SADALP,(vector) Signed add and accumulate long pairwise page 9-158
+SADDL,(vector) Signed add long page 9-159
+SADDL2,(vector) Signed add long page 9-159
+SADDLP,(vector) Signed add long pairwise page 9-160
+SADDLV,(vector) Signed add long across vector page 9-161
+SADDW,(vector) Signed add wide page 9-162
+SADDW2,(vector) Signed add wide page 9-162
+SCVTF,(vector; fixed-point) Signed fixed-point convert to floating-point page 9-163
+SCVTF,(vector; integer) Signed integer convert to floating-point page 9-164
+SHADD,(vector) Signed halving add page 9-165
+SHL,(vector) Shift left (immediate) page 9-166
+SHLL,(vector) Shift left long (by element size) page 9-167
+SHLL2,(vector) Shift left long (by element size) page 9-167
+SHRN,(vector) Shift right narrow (immediate) page 9-168
+SHRN2,(vector) Shift right narrow (immediate) page 9-168
+SHSUB,(vector) Signed halving subtract page 9-169
+SLI,(vector) Shift left and insert (immediate) page 9-170
+SMAX,(vector) Signed maximum page 9-171
+SMAXP,(vector) Signed maximum pairwise page 9-172
+SMAXV,(vector) Signed maximum across vector page 9-173
+SMIN,(vector) Signed minimum page 9-174
+SMINP,(vector) Signed minimum pairwise page 9-175
+SMINV,(vector) Signed minimum across vector page 9-176
+SMLAL,(vector; by element) Signed multiply-add long (by element) page 9-177
+SMLAL2,(vector; by element) Signed multiply-add long (by element) page 9-177
+SMLAL,(vector) Signed multiply-add long page 9-178
+SMLAL2,(vector) Signed multiply-add long page 9-178
+SMLSL,(vector; by element) Signed multiply-subtract long (by element) page 9-179
+SMLSL2,(vector; by element) Signed multiply-subtract long (by element) page 9-179
+SMLSL,(vector) Signed multiply-subtract long page 9-180
+SMLSL2,(vector) Signed multiply-subtract long page 9-180
+SMOV,(vector) Signed move vector element to general-purpose register page 9-181
+SMULL,(vector; by element) Signed multiply long (by element) page 9-182
+SMULL2,(vector; by element) Signed multiply long (by element) page 9-182
+SMULL,(vector) Signed multiply long page 9-183
+SMULL2,(vector) Signed multiply long page 9-183
+SQABS,(vector) Signed saturating absolute value page 9-184
+SQADD,(vector) Signed saturating add page 9-185
+SQDMLAL,(vector; by element) Signed saturating doubling multiply-add long (by element) page 9-186
+SQDMLAL2,(vector; by element) Signed saturating doubling multiply-add long (by element) page 9-186
+SQDMLAL,(vector) Signed saturating doubling multiply-add long page 9-187
+SQDMLAL2,(vector) Signed saturating doubling multiply-add long page 9-187
+SQDMLSL,(vector; by element) Signed saturating doubling multiply-subtract long (by element)
+SQDMLSL2,(vector; by element) Signed saturating doubling multiply-subtract long (by element)
+SQDMLSL,(vector) Signed saturating doubling multiply-subtract long page 9-189
+SQDMLSL2,(vector) Signed saturating doubling multiply-subtract long page 9-189
+SQDMULH,(vector; by element) Signed saturating doubling multiply returning high half (by element)
+SQDMULH,(vector) Signed saturating doubling multiply returning high half page 9-191
+SQDMULL,(vector; by element) Signed saturating doubling multiply long (by element) page 9-192
+SQDMULL2,(vector; by element) Signed saturating doubling multiply long (by element) page 9-192
+SQDMULL,(vector) Signed saturating doubling multiply long page 9-193
+SQDMULL2,(vector) Signed saturating doubling multiply long page 9-193
+SQNEG,(vector) Signed saturating negate page 9-194
+SQRDMULH,(vector; by element) Signed saturating rounding doubling multiply returning high half (by element)
+SQRDMULH,(vector) Signed saturating rounding doubling multiply returning high half
+SQRSHL,(vector) Signed saturating rounding shift left (register) page 9-197
+SQRSHRN
+SQRSHRN2,(vector) Signed saturating rounded shift right narrow (immediate) page 9-198
+SQRSHRUN
+SQRSHRUN2,(vector) Signed saturating rounded shift right unsigned narrow (immediate)
+SQSHL,(vector; immediate) Signed saturating shift left (immediate) page 9-200
+SQSHL,(vector; register) Signed saturating shift left (register) page 9-201
+SQSHLU,(vector) Signed saturating shift left unsigned (immediate) page 9-202
+SQSHRN
+SQSHRN2,(vector) Signed saturating shift right narrow (immediate) page 9-203
+SQSHRUN
+SQSHRUN2,(vector) Signed saturating shift right unsigned narrow (immediate) page 9-204
+SQSUB,(vector) Signed saturating subtract page 9-205
+SQXTN
+SQXTN2,(vector) Signed saturating extract narrow page 9-206
+SQXTUN
+SQXTUN2,(vector) Signed saturating extract unsigned narrow page 9-207
+SRHADD,(vector) Signed rounding halving add page 9-208
+SRI,(vector) Shift right and insert (immediate) page 9-209
+SRSHL,(vector) Signed rounding shift left (register) page 9-210
+SRSHR,(vector) Signed rounding shift right (immediate) page 9-211
+SRSRA,(vector) Signed rounding shift right and accumulate (immediate) page 9-212
+SSHL,(vector) Signed shift left (register) page 9-213
+SSHLL
+SSHLL2,(vector) Signed shift left long (immediate) page 9-214
+SSHR,(vector) Signed shift right (immediate) page 9-215
+SSRA,(vector) Signed shift right and accumulate (immediate) page 9-216
+SSUBL
+SSUBL2,(vector) Signed subtract long page 9-217
+SSUBW
+SSUBW2,(vector) Signed subtract wide page 9-218
+ST1,(vector; multiple structures) Store multiple 1-element structures from one; two three or four registers
+ST1,(vector; single structure) Store single 1-element structure from one lane of one register
+ST2,(vector; multiple structures) Store multiple 2-element structures from two registers page 9-223
+ST2,(vector; single structure) Store single 2-element structure from one lane of two registers
+ST3,(vector; multiple structures) Store multiple 3-element structures from three registers page 9-225
+ST3,(vector; single structure) Store single 3-element structure from one lane of three registers
+ST4,(vector; multiple structures) Store multiple 4-element structures from four registers page 9-227
+ST4,(vector; single structure) Store single 4-element structure from one lane of four registers
+SUB,(vector) Subtract page 9-230
+SUBHN,(vector) Subtract returning high narrow page 9-231
+SUBHN2,(vector) Subtract returning high narrow page 9-231
+SUQADD,(vector) Signed saturating accumulate of unsigned value page 9-232
+SXTL,(vector) Signed extend long page 9-233
+SXTL2,(vector) Signed extend long page 9-233
+TBL,(vector) Table vector lookup page 9-234
+TBX,(vector) Table vector lookup extension page 9-235
+TRN1,(vector) Transpose vectors (primary) page 9-236
+TRN2,(vector) Transpose vectors (secondary) page 9-237
+UABA,(vector) Unsigned absolute difference and accumulate page 9-238
+UABAL,(vector) Unsigned absolute difference and accumulate long page 9-239
+UABAL2,(vector) Unsigned absolute difference and accumulate long page 9-239
+UABD,(vector) Unsigned absolute difference page 9-240
+UABDL,(vector) Unsigned absolute difference long page 9-241
+UABDL2,(vector) Unsigned absolute difference long page 9-241
+UADALP,(vector) Unsigned add and accumulate long pairwise page 9-242
+UADDL,(vector) Unsigned add long page 9-243
+UADDL2,(vector) Unsigned add long page 9-243
+UADDLP,(vector) Unsigned add long pairwise page 9-244
+UADDLV,(vector) Unsigned sum long across vector page 9-245
+UADDW,(vector) Unsigned add wide page 9-246
+UADDW2,(vector) Unsigned add wide page 9-246
+UCVTF,(vector; fixed-point) Unsigned fixed-point convert to floating-point page 9-247
+UCVTF,(vector; integer) Unsigned integer convert to floating-point page 9-248
+UHADD,(vector) Unsigned halving add page 9-249
+UHSUB,(vector) Unsigned halving subtract page 9-250
+UMAX,(vector) Unsigned maximum page 9-251
+UMAXP,(vector) Unsigned maximum pairwise page 9-252
+UMAXV,(vector) Unsigned maximum across vector page 9-253
+UMIN,(vector) Unsigned minimum page 9-254
+UMINP,(vector) Unsigned minimum pairwise page 9-255
+UMINV,(vector) Unsigned minimum across vector page 9-256
+UMLAL,(vector; by element) Unsigned multiply-add long (by element) page 9-257
+UMLAL2,(vector; by element) Unsigned multiply-add long (by element) page 9-257
+UMLAL,(vector) Unsigned multiply-add long page 9-258
+UMLAL2,(vector) Unsigned multiply-add long page 9-258
+UMLSL,(vector; by element) Unsigned multiply-subtract long (by element) page 9-259
+UMLSL2,(vector; by element) Unsigned multiply-subtract long (by element) page 9-259
+UMLSL,(vector) Unsigned multiply-subtract long page 9-260
+UMLSL2,(vector) Unsigned multiply-subtract long page 9-260
+UMOV,(vector) Unsigned move vector element to general-purpose register page 9-261
+UMULL,(vector; by element) Unsigned multiply long (by element) page 9-262
+UMULL2,(vector; by element) Unsigned multiply long (by element) page 9-262
+UMULL,(vector) Unsigned multiply long page 9-263
+UMULL2,(vector) Unsigned multiply long page 9-263
+UQADD,(vector) Unsigned saturating add page 9-264
+UQRSHL,(vector) Unsigned saturating rounding shift left (register) page 9-265
+UQRSHRN,(vector) Unsigned saturating rounded shift right narrow (immediate)
+UQRSHRN2,(vector) Unsigned saturating rounded shift right narrow (immediate)
+UQSHL,(vector; immediate) Unsigned saturating shift left (immediate) page 9-267
+UQSHL,(vector; register) Unsigned saturating shift left (register) page 9-268
+UQSHRN,(vector) Unsigned saturating shift right narrow (immediate) page 9-269
+UQSHRN2,(vector) Unsigned saturating shift right narrow (immediate) page 9-269
+UQSUB,(vector) Unsigned saturating subtract page 9-270
+UQXTN,(vector) Unsigned saturating extract narrow page 9-271
+UQXTN2,(vector) Unsigned saturating extract narrow page 9-271
+URECPE,(vector) Unsigned reciprocal estimate page 9-272
+URHADD,(vector) Unsigned rounding halving add page 9-273
+URSHL,(vector) Unsigned rounding shift left (register) page 9-274
+URSHR,(vector) Unsigned rounding shift right (immediate) page 9-275
+URSQRTE,(vector) Unsigned reciprocal square root estimate page 9-276
+URSRA,(vector) Unsigned rounding shift right and accumulate (immediate) page 9-277
+USHL,(vector) Unsigned shift left (register) page 9-278
+USHLL,(vector) Unsigned shift left long (immediate) page 9-279
+USHLL2,(vector) Unsigned shift left long (immediate) page 9-279
+USHR,(vector) Unsigned shift right (immediate) page 9-280
+USQADD,(vector) Unsigned saturating accumulate of signed value page 9-281
+USRA,(vector) Unsigned shift right and accumulate (immediate) page 9-282
+USUBL,(vector) Unsigned subtract long page 9-283
+USUBL2,(vector) Unsigned subtract long page 9-283
+USUBW,(vector) Unsigned subtract wide page 9-284
+USUBW2,(vector) Unsigned subtract wide page 9-284
+UXTL,(vector) Unsigned extend long page 9-285
+UXTL2,(vector) Unsigned extend long page 9-285
+UZP1,(vector) Unzip vectors (primary) page 9-286
+UZP2,(vector) Unzip vectors (secondary) page 9-287
+XTN,(vector) Extract narrow page 9-288
+XTN2,(vector) Extract narrow page 9-288
+ZIP1,(vector) Zip vectors (primary) page 9-289
+ZIP2,(vector) Zip vectors (secondary) page 9-290

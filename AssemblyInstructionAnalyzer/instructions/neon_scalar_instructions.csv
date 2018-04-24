@@ -1,0 +1,111 @@
+^((?![zZ][0-9]+)(?![pP][0-9]+)).*([vV][0-9]+).*$
+ABS,(scalar) Absolute value page 8-7
+ADD,(scalar) Add page 8-8
+ADDP,(scalar) Add pair of elements page 8-9
+CMEQ,(scalar; register) Compare bitwise equal; setting destination vector element to all ones if the condition holds; else zero
+CMEQ,(scalar; zero) Compare bitwise equal to zero; setting destination vector element to all ones if the condition holds; else zero
+CMGE,(scalar; register) Compare signed greater than or equal page 8-12
+CMGE,(scalar; zero) Compare signed greater than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+CMGT,(scalar; register) Compare signed greater than; setting destination vector element to all ones if the condition holds; else zero
+CMGT,(scalar; zero) Compare signed greater than zero; setting destination vector element to all ones if the condition holds; else zero
+CMHI,(scalar; register) Compare unsigned higher; setting destination vector element to all ones if the condition holds; else zero
+CMHS,(scalar; register) Compare unsigned higher or same; setting destination vector element to all ones if the condition holds; else zero
+CMLE,(scalar; zero) Compare signed less than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+CMLT,(scalar; zero) Compare signed less than zero; setting destination vector element to all ones if the condition holds; else zero
+CMTST,(scalar) Compare bitwise test bits nonzero; setting destination vector element to all ones if the condition holds; else zero
+DUP,(scalar; element) Duplicate vector element to scalar page 8-21
+FABD,(scalar) Floating-point absolute difference page 8-22
+FACGE,(scalar) Floating-point absolute compare greater than or equal page 8-23
+FACGT,(scalar) Floating-point absolute compare greater than page 8-24
+FADDP,(scalar) Floating-point add pair of elements page 8-25
+FCMEQ,(scalar; register) Floating-point compare equal; setting destination vector element to all ones if the condition holds; else zero
+FCMEQ,(scalar; zero) Floating-point compare equal to zero; setting destination vector element to all ones if the condition holds; else zero
+FCMGE,(scalar; register) Floating-point compare greater than or equal; setting destination vector element to all ones if the condition holds; else zero
+FCMGE,(scalar; zero) Floating-point compare greater than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+FCMGT,(scalar; register) Floating-point compare greater than; setting destination vector element to all ones if the condition holds; else zero
+FCMGT,(scalar; zero) Floating-point compare greater than zero; setting destination vector element to all ones if the condition holds; else zero
+FCMLE,(scalar; zero) Floating-point compare less than or equal to zero; setting destination vector element to all ones if the condition holds; else zero
+FCMLT,(scalar; zero) Floating-point compare less than zero; setting destination vector element to all ones if the condition holds; else zero
+FCVTAS,(scalar) Floating-point convert to signed integer; rounding to nearest with ties to away
+FCVTAU,(scalar) Floating-point convert to unsigned integer; rounding to nearest with ties to away
+FCVTMS,(scalar) Floating-point convert to signed integer; rounding toward minus infinity
+FCVTMU,(scalar) Floating-point convert to unsigned integer; rounding toward minus infinity
+FCVTNS,(scalar) Floating-point convert to signed integer; rounding to nearest with ties to even
+FCVTNU,(scalar) Floating-point convert to unsigned integer; rounding to nearest with ties to even
+FCVTPS,(scalar) Floating-point convert to signed integer; rounding toward positive infinity
+FCVTPU,(scalar) Floating-point convert to unsigned integer; rounding toward positive infinity
+FCVTXN,(scalar) Floating-point convert to lower precision narrow; rounding to odd
+FCVTZS,(scalar; fixed-point) Floating-point convert to signed fixed-point; rounding toward zero
+FCVTZS,(scalar; integer) Floating-point convert to signed integer; rounding toward zero
+FCVTZU,(scalar; fixed-point) Floating-point convert to unsigned fixed-point; rounding toward zero
+FCVTZU,(scalar; integer) Floating-point convert to unsigned integer; rounding toward zero
+FMAXNMP,(scalar) Floating-point maximum number of pair of elements page 8-47
+FMAXP,(scalar) Floating-point maximum of pair of elements page 8-48
+FMINNMP,(scalar) Floating-point minimum number of pair of elements page 8-49
+FMINP,(scalar) Floating-point minimum of pair of elements page 8-50
+FMLA,(scalar; by element) Floating-point fused multiply-add to accumulator (by element)
+FMLS,(scalar; by element) Floating-point fused multiply-subtract from accumulator (by element)
+FMUL,(scalar; by element) Floating-point multiply (by element) page 8-53
+FMULX,(scalar; by element) Floating-point multiply extended (by element) page 8-54
+FMULX,(scalar) Floating-point multiply extended page 8-55
+FRECPE,(scalar) Floating-point reciprocal estimate page 8-56
+FRECPS,(scalar) Floating-point reciprocal step page 8-57
+FRECPX,(scalar) Floating-point reciprocal exponent page 8-58
+FRSQRTE,(scalar) Floating-point reciprocal square root estimate page 8-59
+FRSQRTS,(scalar) Floating-point reciprocal square root step page 8-60
+MOV,(scalar) Move vector element to scalar page 8-61
+NEG,(scalar) Negate page 8-62
+SCVTF,(scalar; fixed-point) Signed fixed-point convert to floating-point page 8-63
+SCVTF,(scalar; integer) Signed integer convert to floating-point page 8-64
+SHL,(scalar) Shift left (immediate) page 8-65
+SLI,(scalar) Shift left and insert (immediate) page 8-66
+SQABS,(scalar) Signed saturating absolute value page 8-67
+SQADD,(scalar) Signed saturating add page 8-68
+SQDMLAL,(scalar; by element) Signed saturating doubling multiply-add long (by element) page 8-69
+SQDMLAL,(scalar) Signed saturating doubling multiply-add long page 8-70
+SQDMLSL,(scalar; by element) Signed saturating doubling multiply-subtract long (by element)
+SQDMLSL,(scalar) Signed saturating doubling multiply-subtract long page 8-72
+SQDMULH,(scalar; by element) Signed saturating doubling multiply returning high half (by element)
+SQDMULH,(scalar) Signed saturating doubling multiply returning high half page 8-74
+SQDMULL,(scalar; by element) Signed saturating doubling multiply long (by element) page 8-75
+SQDMULL,(scalar) Signed saturating doubling multiply long page 8-76
+SQNEG,(scalar) Signed saturating negate page 8-77
+SQRDMULH,(scalar; by element) Signed saturating rounding doubling multiply returning high half (by element)
+SQRDMULH,(scalar) Signed saturating rounding doubling multiply returning high half
+SQRSHL,(scalar) Signed saturating rounding shift left (register) page 8-80
+SQRSHRN,(scalar) Signed saturating rounded shift right narrow (immediate) page 8-81
+SQRSHRUN,(scalar) Signed saturating rounded shift right unsigned narrow (immediate)
+SQSHL,(scalar; immediate) Signed saturating shift left (immediate) page 8-83
+SQSHL,(scalar; register) Signed saturating shift left (register) page 8-84
+SQSHLU,(scalar) Signed saturating shift left unsigned (immediate) page 8-85
+SQSHRN,(scalar) Signed saturating shift right narrow (immediate) page 8-86
+SQSHRUN,(scalar) Signed saturating shift right unsigned narrow (immediate) page 8-87
+SQSUB,(scalar) Signed saturating subtract page 8-88
+SQXTN,(scalar) Signed saturating extract narrow page 8-89
+SQXTUN,(scalar) Signed saturating extract unsigned narrow page 8-90
+SRI,(scalar) Shift right and insert (immediate) page 8-91
+SRSHL,(scalar) Signed rounding shift left (register) page 8-92
+SRSHR,(scalar) Signed rounding shift right (immediate) page 8-93
+SRSRA,(scalar) Signed rounding shift right and accumulate (immediate) page 8-94
+SSHL,(scalar) Signed shift left (register) page 8-95
+SSHR,(scalar) Signed shift right (immediate) page 8-96
+SSRA,(scalar) Signed shift right and accumulate (immediate) page 8-97
+SUB,(scalar) Subtract page 8-98
+SUQADD,(scalar) Signed saturating accumulate of unsigned value page 8-99
+UCVTF,(scalar; fixed-point) Unsigned fixed-point convert to floating-point page 8-100
+UCVTF,(scalar; integer) Unsigned integer convert to floating-point page 8-101
+UQADD,(scalar) Unsigned saturating add page 8-102
+UQRSHL,(scalar) Unsigned saturating rounding shift left (register) page 8-103
+UQRSHRN,(scalar) Unsigned saturating rounded shift right narrow (immediate)
+UQSHL,(scalar; immediate) Unsigned saturating shift left (immediate) page 8-105
+UQSHL,(scalar; register) Unsigned saturating shift left (register) page 8-106
+UQSHRN,(scalar) Unsigned saturating shift right narrow (immediate) page 8-107
+UQSUB,(scalar) Unsigned saturating subtract page 8-108
+UQXTN,(scalar) Unsigned saturating extract narrow page 8-109
+URSHL,(scalar) Unsigned rounding shift left (register) page 8-110
+URSHR,(scalar) Unsigned rounding shift right (immediate) page 8-111
+URSRA,(scalar) Unsigned rounding shift right and accumulate (immediate) page 8-112
+USHL,(scalar) Unsigned shift left (register) page 8-113
+USHR,(scalar) Unsigned shift right (immediate) page 8-114
+USQADD,(scalar) Unsigned saturating accumulate of signed value page 8-115
+USRA,(scalar) Unsigned shift right and accumulate (immediate) page 8-116
